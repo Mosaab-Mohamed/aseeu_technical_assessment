@@ -1,46 +1,34 @@
-# Getting Started with Create React App
+# Aseeue Technical Assessment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains a React app with TypeScript that completes the given tasks. To run the code, please follow the instructions below:
 
-## Available Scripts
+## Installation
 
-In the project directory, you can run:
+- Ensure that you have Node.js and Yarn installed on your machine.
+- Clone this repository to your local machine or download the ZIP file.
+- Open a terminal and navigate to the project's directory.
+- Run the following command to install the dependencies:
 
-### `yarn start`
+yarn install
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Usage
 
-### `yarn test`
+After the installation is complete, you can start the React app by running the following command:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+yarn start
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This will launch the app in your default browser, and you can interact with it.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Project Structure
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The code for the tasks is located in the `src` directory. Here is a brief overview of the project structure:
 
-### `yarn eject`
+- The `DropDown` component implements the first task. It includes smaller components that handle the functionality of a dropdown menu. Props drilling is used for passing data between components, but if the component had more levels, the context API would be used to avoid excessive props drilling.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- The `QuestionForm` component implements the second task as instructed in the provided file. The component is designed to be reusable for both single choice answer and multichoice answer.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The project does not rely on many external packages. The only additional package used is `node-sass` for styling purposes. The focus of the implementation is on the logic and functionality rather than extensive styling.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
